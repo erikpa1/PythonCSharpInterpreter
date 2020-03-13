@@ -44,6 +44,15 @@ class Parser(object):
                     classes.append(tmpClass)
                     print("Found class: " +  className)
 
+
+
+
+
+
+
+
+
+
                 pass
 
         if (len(classes) == 0):
@@ -52,6 +61,38 @@ class Parser(object):
             print(str(type(classes[0])))
 
         pass
+
+
+    def FindAttributes(self, startIndex: int, endIndex: int):
+        pass
+
+    def FindMethods(self, startIndex: int, endIndex: int):
+        pass
+
+
+
+    def FindClassEnd(self, startIndex: int):
+
+        leftCurves = 1;
+        rightCurves = 0;
+
+
+        for lineIndex in range(startIndex, len(startIndex)):
+
+            line: str = self.lines[lineIndex];
+
+            leftCurves += line.count("{")
+            rightCurves += line.count("}")
+
+            if leftCurves == rightCurves:
+                return lineIndex
+
+            return -1
+            pass
+
+        pass
+
+
 
     def FindWord(self, line: str, startIndex: int):
 
@@ -82,6 +123,9 @@ class Parser(object):
 
         pass
 
+
+
+
     def PrintFile(self):
 
         print("Lines count: ", len(self.lines))
@@ -93,3 +137,5 @@ class Parser(object):
 
         print(concatStr)
         pass
+
+
