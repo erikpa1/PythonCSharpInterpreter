@@ -15,11 +15,21 @@ class Class(object):
 
     def _FindAttributes(self):
 
+        for i in self.lines:
+            line: str = i
+
+            if (line.find("private") != -1):
+
+            
+
+
+
+
 
 
         pass
-
-    def _FindMethods(self):
-        pass
-
     pass
+
+    def IsMethod(self, line: str):
+
+        pass

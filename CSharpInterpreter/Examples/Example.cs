@@ -5,6 +5,8 @@ namespace ella
     {
         class Example
         {
+            private string name;
+
             void SayHello()
             {
                 Console.WriteLine("Hi");

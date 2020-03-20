@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca8e1228-c31c-45ac-a6d6-a84a99819752" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Examples/Class.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SearchFunctions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/CSharpInterpreter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CSharpInterpreter.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Class.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examples/Example.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Examples/Example.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/Parser.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,10 +32,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Work\PythonCSharpInterpreter\CSharpInterpreter" />
       <recent name="C:\Work\PythonCSharpInterpreter\CSharpInterpreter\Examplex" />
     </key>
   </component>
